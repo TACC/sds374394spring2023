@@ -1,0 +1,22 @@
+==== Edit jobscript:
+
+fill in #nodes, #cores, runtime
+
+if you have more than one project, fill in project name
+(see login information)
+
+run MPI programs with "ibrun", OpenMP programs by themselves.
+
+==== Submit
+
+sbatch jobscript
+
+then:
+
+squeue -u yourname
+
+or sit and wait:
+
+watch squeue -u yourname
+
+See userguide for more info.
